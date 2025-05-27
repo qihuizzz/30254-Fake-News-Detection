@@ -6,8 +6,6 @@
 
 This is a supervised text classification task, where the model learns from labeled news articles and predicts whether new articles are unreliable. The dataset contains article titles, full texts, authors, and reliability labels.
 
----
-
 ## Dataset
 
 A full dataset with the following attributes:
@@ -19,8 +17,6 @@ A full dataset with the following attributes:
   - 1: unreliable
   - 0: reliable
 
----
-
 ## Data Cleaning & Preprocessing
 
 We performed standard Natural Language Processing (NLP) techniques:
@@ -30,8 +26,6 @@ We performed standard Natural Language Processing (NLP) techniques:
 - TF-IDF vectorization for traditional models
 - Sequence padding and tokenization for deep learning models
 
----
-
 ## Models Used
 
 ### 1. Decision Tree  
@@ -39,21 +33,15 @@ A baseline model using scikit-learn's `DecisionTreeClassifier`.
 
 ![Decision Tree](image/decision_tree.png)
 
----
-
 ### 2. Logistic Regression  
 A linear model using `TfidfVectorizer` features to classify articles.
 
 ![Decision Tree](image/logistic_regression.png)
 
----
-
 ### 3. Bi-Directional LSTM  
 A deep learning model using Keras' `Embedding`, `Bidirectional(LSTM)`, and `Dense` layers to capture long-term dependencies in text.
 
 ![Decision Tree](image/bilstm.png)
-
----
 
 ## Tools and Libraries
 
@@ -71,8 +59,6 @@ A deep learning model using Keras' `Embedding`, `Bidirectional(LSTM)`, and `Dens
 
 ### Visualization
 - `matplotlib.pyplot` – accuracy and loss plots
-
----
 
 ## Results & Insights
 
