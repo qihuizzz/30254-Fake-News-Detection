@@ -30,18 +30,15 @@ We performed standard Natural Language Processing (NLP) techniques:
 
 ### 1. Decision Tree  
 A baseline model using scikit-learn's `DecisionTreeClassifier`.
-
-<img src="image/decision_tree.png" alt="Decision Tree" width="600" align="left">
+<img src="image/decision_tree.png" alt="LSTM Metrics" width="500" style="float: left; margin-right: 20px;" />
 
 ### 2. Logistic Regression  
 A linear model using `TfidfVectorizer` features to classify articles.
-
-<img src="image/logistic_regression.png" alt="Decision Tree" width="600" align="left">
+<img src="image/logistic_regression.png" alt="LSTM Metrics" width="500" style="float: left; margin-right: 20px;" />
 
 ### 3. Bi-Directional LSTM  
 A deep learning model using Keras' `Embedding`, `Bidirectional(LSTM)`, and `Dense` layers to capture long-term dependencies in text.
-
-<img src="image/bilstm.png" alt="Decision Tree" width="600" align="left">
+<img src="image/bilstm.png" alt="LSTM Metrics" width="500" style="float: left; margin-right: 20px;" />
 
 ## Tools and Libraries
 
