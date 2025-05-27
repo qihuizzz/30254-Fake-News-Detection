@@ -38,6 +38,7 @@ A linear model using `TfidfVectorizer` features to classify articles.
 
 ### 3. Bi-Directional LSTM  
 A deep learning model using Keras' `Embedding`, `Bidirectional(LSTM)`, and `Dense` layers to capture long-term dependencies in text.
+
 <img src="image/bilstm.png" alt="LSTM Metrics" width="500" style="float: left; margin-right: 20px;" />
 
 ## Tools and Libraries
